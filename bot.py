@@ -69,8 +69,8 @@ Login Time %s \033[0m\n\n"""%(Bot_startTime))
 #==============================================================================
 oepoll = OEPoll(cl)
 call = cl
-creator = ["u7d1281a8bb7c4a3546f050d2917bb79a","u7d1281a8bb7c4a3546f050d2917bb79a"]
-owner = ["u7d1281a8bb7c4a3546f050d2917bb79a","u7d1281a8bb7c4a3546f050d2917bb79a"]
+creator = ["uc8eadb19c901bbecf53e948c15935304","uc8eadb19c901bbecf53e948c15935304"]
+owner = ["uc8eadb19c901bbecf53e948c15935304","uc8eadb19c901bbecf53e948c15935304"]
 admin = ["u7d1281a8bb7c4a3546f050d2917bb79a","u7d1281a8bb7c4a3546f050d2917bb79a"]
 staff = ["u7d1281a8bb7c4a3546f050d2917bb79a"]
 #==============================================================================
@@ -266,11 +266,11 @@ wait = {
             "pictureStatus": "",
             "statusMessage": ""
             },
-    "mention":"Masuk say ngitip bacok",
+    "mention":"Masuk say cinih",
     "Respontag":"Cuy ngrtag mele..",
     "welcome":"Wellcome to my Fams",
-    "comment":"ᴀᴜᴛᴏʟɪᴋᴇ ʙʏ: \n\n\n\n™S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\n\n\n\nᴄʀᴇᴀᴛᴏʀ:\nhttp://line.me/ti/p/~teambotprotect\nɢɪᴛhᴜʙ:\ngithub.com/dhenza1415\nchanel ʏᴏᴜᴛᴜʙᴇ:\nhttps://youtu.be/CRqXKcTl6IY\n\nnew ᴄʜᴀɴᴇʟ:\nhttps://youtu.be/6UGH_4gG9qk",
-    "message":"ᴄɪᴇᴇ ᴋᴇᴛᴀʜᴜᴀɴ ɴɢᴇ ᴀᴅᴅ\nᴍᴀᴋᴀsɪʜ ʏᴀ sᴜᴅᴀʜ ᴀᴅᴅ..\n\n\n\n\n™S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\n\n\n\nᴄʀᴇᴀᴛᴏʀ:\nhttp://line.me/ti/p/~teambotprotect\nɢɪᴛhᴜʙ:\ngithub.com/dhenza1415\nchanel ʏᴏᴜᴛᴜʙᴇ:\nhttps://youtu.be/CRqXKcTl6IY\n\nnew ᴄʜᴀɴᴇʟ:\nhttps://youtu.be/6UGH_4gG9qk",
+    "comment":"ᴀᴜᴛᴏʟɪᴋᴇ ʙʏ: REMNOID",
+    "message":"ᴄɪᴇᴇ ᴋᴇᴛᴀʜᴜᴀɴ ɴɢᴇ ᴀᴅᴅ",
 }
 read = {
     "readPoint":{},
