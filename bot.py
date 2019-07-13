@@ -62,15 +62,15 @@ print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Kicker2
 #==========================[[PAKE TOKEN CHROMEOS 2.1.5]]=========================
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m
 
-	    Welcome To Self Bot Protect  By Dhenza15
+	    Welcome To Self Bot Protect  REMNOID
 
             
 Login Time %s \033[0m\n\n"""%(Bot_startTime))
 #==============================================================================
 oepoll = OEPoll(cl)
 call = cl
-creator = ["uc8eadb19c901bbecf53e948c15935304","uc8eadb19c901bbecf53e948c15935304"]
-owner = ["uc8eadb19c901bbecf53e948c15935304","uc8eadb19c901bbecf53e948c15935304"]
+creator = ["uc8eadb19c901bbecf53e948c15935304","u697fe4a717bb0d2bbf554cff6d89906a"]
+owner = ["uc8eadb19c901bbecf53e948c15935304","u697fe4a717bb0d2bbf554cff6d89906a"]
 admin = ["u7d1281a8bb7c4a3546f050d2917bb79a","u7d1281a8bb7c4a3546f050d2917bb79a"]
 staff = ["u7d1281a8bb7c4a3546f050d2917bb79a"]
 #==============================================================================
@@ -269,8 +269,8 @@ wait = {
     "mention":"Masuk say cinih",
     "Respontag":"Cuy ngrtag mele..",
     "welcome":"Wellcome to my Fams",
-    "comment":"ᴀᴜᴛᴏʟɪᴋᴇ ʙʏ: REMNOID",
-    "message":"ᴄɪᴇᴇ ᴋᴇᴛᴀʜᴜᴀɴ ɴɢᴇ ᴀᴅᴅ",
+    "comment":"Auto Like doesn't work",
+    "message":"Add nih kalo mau add \n\nhttp://line.me/ti/p/~remnoid",
 }
 read = {
     "readPoint":{},
@@ -666,7 +666,7 @@ def sendMention(to, mid, firstmessage):
         timeNow = datetime.now(tz=tz)
         eltime = time.time() - mulai
         bot = runtime(eltime)
-        text += mention+"\nJam : "+datetime.strftime(timeNow,'%H:%M:%S')+" Wib\nGroup : "+str(len(gid))+"\nTeman : "+str(len(teman))+"\nxpired : In "+hari+"\nVersion : Sempak Bot\nTanggal : "+datetime.strftime(timeNow,'%Y-%m-%d')+"\nRuntime : \n • "+bot
+        text += mention+"\nJam : "+datetime.strftime(timeNow,'%H:%M:%S')+" Wib\nGroup : "+str(len(gid))+"\nTeman : "+str(len(teman))+"\nxpired : In "+hari+"\nVersion : Remnoid Bot\nTanggal : "+datetime.strftime(timeNow,'%Y-%m-%d')+"\nRuntime : \n • "+bot
         cl.sendMessage(to, text, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
         cl.sendMessage(to, "[ INFO ] Error :\n" + str(error))
