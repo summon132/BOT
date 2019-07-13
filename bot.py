@@ -13,7 +13,6 @@ import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 from bs4 import BeautifulSoup
 from humanfriendly import format_timespan, format_size, format_number, format_length
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib, urllib.parse,youtube_dl,pafy,timeit,atexit,traceback
-from gtts import gTTS
 from googletrans import Translator
 Bot_startTime = time.strftime("%H:%M:%S", time.localtime())
 # Login line
@@ -62,7 +61,7 @@ print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Kicker2
 #==========================[[PAKE TOKEN CHROMEOS 2.1.5]]=========================
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m
 
-	    Welcome To Self Bot Protect  REMNOID
+	    Welcome To Self Bot Protect  By Dhenza15
 
             
 Login Time %s \033[0m\n\n"""%(Bot_startTime))
@@ -266,11 +265,11 @@ wait = {
             "pictureStatus": "",
             "statusMessage": ""
             },
-    "mention":"Masuk say cinih",
-    "Respontag":"Cuy ngrtag mele..",
+    "mention":"Masuk sini",
+    "Respontag":"Ngetag molo",
     "welcome":"Wellcome to my Fams",
-    "comment":"Auto Like doesn't work",
-    "message":"Add nih kalo mau add \n\nhttp://line.me/ti/p/~remnoid",
+    "comment":"Well Played",
+    "message":"Ngeeeeeeeeeeooooooooodddddd",
 }
 read = {
     "readPoint":{},
@@ -6771,7 +6770,7 @@ def bot(op):
                            if msg._from in owner or msg._from in admin or msg._from in staff:
                            	if msg.toType == 2:
                                   ginfo = cl.getGroup(msg.to)
-                                  cl.sendMessage(msg.to, "Proses Cleanse....")
+                                  cl.sendMessage(msg.to, "Remove Member")
                                   cl.sendMessage(msg.to, "silentkiller \nmember : " +str(len(ginfo.members)) + " \nFuck you...")
                                   G = cl.getGroup(msg.to)
                                   G.preventedJoinByTicket = False
