@@ -68,8 +68,8 @@ Login Time %s \033[0m\n\n"""%(Bot_startTime))
 #==============================================================================
 oepoll = OEPoll(cl)
 call = cl
-creator = ["uc8eadb19c901bbecf53e948c15935304","u697fe4a717bb0d2bbf554cff6d89906a"]
-owner = ["uc8eadb19c901bbecf53e948c15935304","u697fe4a717bb0d2bbf554cff6d89906a"]
+creator = ["uc8eadb19c901bbecf53e948c15935304","uc8eadb19c901bbecf53e948c15935304"]
+owner = ["uc8eadb19c901bbecf53e948c15935304","uc8eadb19c901bbecf53e948c15935304"]
 admin = ["u7d1281a8bb7c4a3546f050d2917bb79a","u7d1281a8bb7c4a3546f050d2917bb79a"]
 staff = ["u7d1281a8bb7c4a3546f050d2917bb79a"]
 #==============================================================================
