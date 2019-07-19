@@ -5648,16 +5648,16 @@ def bot(op):
                         elif cmd == "name":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               k1.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k2.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k3.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k4.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k5.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k6.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k7.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k8.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k9.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
-                               k10.sendMessage(msg.to, "۞❂✪₷ιlΣNƬ ₭ιll₠₹ ⋮➲➤")
+                               k1.sendMessage(msg.to, "HI BEB!")
+                               k2.sendMessage(msg.to, "HI BEB!")
+                               k3.sendMessage(msg.to, "HI BEB!")
+                               k4.sendMessage(msg.to, "HI BEB!")
+                               k5.sendMessage(msg.to, "HI BEB!")
+                               k6.sendMessage(msg.to, "HI BEB!")
+                               k7.sendMessage(msg.to, "HI BEB!")
+                               k8.sendMessage(msg.to, "HI BEB!")
+                               k9.sendMessage(msg.to, "HI BEB!")
+                               k10.sendMessage(msg.to, "HI BEB!")
                                                        
                         elif cmd == "bye1":
                           if wait["selfbot"] == True:
