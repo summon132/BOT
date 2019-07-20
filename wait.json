@@ -15,7 +15,7 @@
     "autoLeave1": false,
     "blacklist": {},
     "bots": {},
-    "comment": "Like me like you do...",
+    "comment": "Like like & like by SILENTBOT",
     "contact": false,
     "dblacklist": false,
     "delladmin": false,
@@ -34,5 +34,5 @@
     "unsend": true,
     "wblacklist": false,
     "welcome": "Selamat datang ",
-    "welcomeOn": true,
+    "welcomeOn": false
 }
