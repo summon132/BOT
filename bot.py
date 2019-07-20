@@ -2,20 +2,18 @@
 © 2019SelfBot ProtectV3.1
 '''
 
-from DHENZA import *
+from linepy import *
 from akad.ttypes import *
-from thrift.TMultiplexedProcessor import *
-from thrift.TSerialization import *
-from thrift.TRecursive import *
-from thrift import transport, protocol, server
+from multiprocessing import Pool, Process
+from akad.ttypes import ContentType as Type
 from important import *
 from random import randint
-from multiprocessing import Pool, Process
 from datetime import datetime
-from time import sleep
+import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 from bs4 import BeautifulSoup
 from humanfriendly import format_timespan, format_size, format_number, format_length
-import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib.request, urllib.parse, urllib.error, urllib.parse
+import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib, urllib.parse,youtube_dl,pafy,timeit,atexit,traceback
+from googletrans import Translator
 Bot_startTime = time.strftime("%H:%M:%S", time.localtime())
 # Login line
 print("""
