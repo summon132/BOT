@@ -2,18 +2,20 @@
 © 2019SelfBot ProtectV3.1
 '''
 
-from linepy import *
+from DHENZA import *
 from akad.ttypes import *
-from multiprocessing import Pool, Process
-from akad.ttypes import ContentType as Type
+from thrift.TMultiplexedProcessor import *
+from thrift.TSerialization import *
+from thrift.TRecursive import *
+from thrift import transport, protocol, server
 from important import *
 from random import randint
+from multiprocessing import Pool, Process
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,re,os,subprocess
+from time import sleep
 from bs4 import BeautifulSoup
 from humanfriendly import format_timespan, format_size, format_number, format_length
-import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib, urllib.parse,youtube_dl,pafy,timeit,atexit,traceback
-from googletrans import Translator
+import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib.request, urllib.parse, urllib.error, urllib.parse
 Bot_startTime = time.strftime("%H:%M:%S", time.localtime())
 # Login line
 print("""
@@ -70,8 +72,8 @@ oepoll = OEPoll(cl)
 call = cl
 creator = ["uc8eadb19c901bbecf53e948c15935304","uc8eadb19c901bbecf53e948c15935304"]
 owner = ["uc8eadb19c901bbecf53e948c15935304","uc8eadb19c901bbecf53e948c15935304"]
-admin = ["u7d1281a8bb7c4a3546f050d2917bb79a","u7d1281a8bb7c4a3546f050d2917bb79a"]
-staff = ["u7d1281a8bb7c4a3546f050d2917bb79a"]
+admin = ["uc8eadb19c901bbecf53e948c15935304","uc8eadb19c901bbecf53e948c15935304"]
+staff = ["uc8eadb19c901bbecf53e948c15935304"]
 #==============================================================================
 lineProfile = cl.getProfile()
 mid = cl.getProfile().mid
@@ -265,11 +267,11 @@ wait = {
             "pictureStatus": "",
             "statusMessage": ""
             },
-    "mention":"Masuk sini",
-    "Respontag":"Ngetag molo",
+    "mention":"Masuk oi",
+    "Respontag":"Tag molo si anjg",
     "welcome":"Wellcome to my Fams",
-    "comment":"Well Played",
-    "message":"Ngeeeeeeeeeeooooooooodddddd",
+    "comment":"Well Done Honey",
+    "message":"Dih Ngeadd",
 }
 read = {
     "readPoint":{},
@@ -952,7 +954,7 @@ def helpbot():
     num = (num+1)
     helpMessage2 += "│╠❂➣ %i. " % num + key + "ʙᴜʙᴀʀ [ᴋɪᴄᴋᴀʟʟ]\n"
     num = (num+1)
-    helpMessage2 += "│╠❂➣ %i. " % num + key + "S1/2 \n"
+    helpMessage2 += "│╠❂➣ %i. " % num + key + "sɪʟᴇɴᴛ1/2 \n"
     num = (num+1)
     helpMessage2 += "│╠❂➣ %i. " % num + key + "ᴀᴜᴛᴏᴊᴏɪɴ ᴏɴ/ᴏғғ\n"
     num = (num+1)
@@ -5580,7 +5582,7 @@ def bot(op):
                                     g = g + 1
                                     end = '\n'
                                     mg += str(g) + ". " +cl.getGroup(group).name + "\n"
-                                cl.sendMessage(msg.to,"⛎DAFTAR PROTECT REMNOID BOT⛎\n\n🔒ᴘʀᴏᴛᴇᴄᴛ ǫʀ:\n"+ma+"\n🔒ᴘʀᴏᴛᴇᴄᴛ ɪɴᴠɪᴛᴇ:\n"+mb+"\n🔒ᴘʀᴏᴛᴇᴄᴛᴀɴᴛɪᴋɪᴄᴋᴇʀ:\n"+mc+"\n🔒ᴘʀᴏᴛᴇᴄᴛᴋɪᴄᴋ:\n"+md+"\n🔒ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ:\n"+me+"\n🔒ᴘʀᴏᴛᴇᴄᴛᴊᴏɪɴ:\n"+mf+"\n🔒ɢʜᴏsᴛ:\n"+mg+"\n\n⛎ᴘʀᴏᴛᴇᴄᴛ ʟɪsᴛ %s ɢʀᴏᴜᴘ ᴘʀᴏᴛᴇᴄᴛ⛎" %(str(len(protectqr)+len(protectinvite)+len(protectantijs)+len(protectcancel)+len(protectkick)+len(protectjoin)+len(ghost))))
+                                cl.sendMessage(msg.to,"⛎ᴅᴀғᴛᴀʀ ʟɪsᴛ ᴘʀᴏᴛᴇᴄᴛ Sɪʟᴇɴᴛᵏᶦˡˡᵉʳ⛎\n\n🔒ᴘʀᴏᴛᴇᴄᴛ ǫʀ:\n"+ma+"\n🔒ᴘʀᴏᴛᴇᴄᴛ ɪɴᴠɪᴛᴇ:\n"+mb+"\n🔒ᴘʀᴏᴛᴇᴄᴛᴀɴᴛɪᴋɪᴄᴋᴇʀ:\n"+mc+"\n🔒ᴘʀᴏᴛᴇᴄᴛᴋɪᴄᴋ:\n"+md+"\n🔒ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ:\n"+me+"\n🔒ᴘʀᴏᴛᴇᴄᴛᴊᴏɪɴ:\n"+mf+"\n🔒ɢʜᴏsᴛ:\n"+mg+"\n\n⛎ᴘʀᴏᴛᴇᴄᴛ ʟɪsᴛ %s ɢʀᴏᴜᴘ ᴘʀᴏᴛᴇᴄᴛ⛎" %(str(len(protectqr)+len(protectinvite)+len(protectantijs)+len(protectcancel)+len(protectkick)+len(protectjoin)+len(ghost))))
                                 
                         elif cmd == "skname":
                           if wait["selfbot"] == True:
@@ -6770,7 +6772,7 @@ def bot(op):
                            if msg._from in owner or msg._from in admin or msg._from in staff:
                            	if msg.toType == 2:
                                   ginfo = cl.getGroup(msg.to)
-                                  cl.sendMessage(msg.to, "Remove Member")
+                                  cl.sendMessage(msg.to, "Proses Cleanse....")
                                   cl.sendMessage(msg.to, "silentkiller \nmember : " +str(len(ginfo.members)) + " \nFuck you...")
                                   G = cl.getGroup(msg.to)
                                   G.preventedJoinByTicket = False
@@ -6900,7 +6902,7 @@ def bot(op):
                         elif cmd == "gas":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               cl.sendMessage(msg.to, "FUCK!")
+                               cl.sendMessage(msg.to, "Tadaima! FBI Desu!")
                                cl.sendContact(to, mid)
                                cl.sendContact(to, Amid)
                                cl.sendContact(to, Bmid)
@@ -7569,7 +7571,7 @@ def bot(op):
                                  for ticket_id in n_links:
                                      group = cl.findGroupByTicket(ticket_id)
                                      cl.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                     cl.sendMessage(msg.to, "Pᴀsᴜᴋᴀɴ REMNOID ɢᴏ : %s" % str(group.name))
+                                     cl.sendMessage(msg.to, "Pᴀsᴜᴋᴀɴ Sɪʟᴇɴᴛᴷᶦˡˡᵉʳ ɢᴏ : %s" % str(group.name))
                                      group1 = cl.findGroupByTicket(ticket_id)
                                  for l in links:
                                      if l not in n_links:
